@@ -9,8 +9,6 @@ myCar = nil
 myCar = "Tesla Model X"
 myCar = nil
 
-print(myCar)
-
 //let number = Int("97")
 
 //let number = Int("dog")

@@ -37,6 +37,28 @@ class CoffeeShop {
     }
 }
 
+class Person {
+    var age: Int // instance variables
+    var name: String
+    
+    init(age: Int,
+         name: String) {
+        self.age = age
+        self.name = name
+    }
+    func changeName(name: String) {
+        self.name = name
+    }
+}
+
+var thomas = Person(age: 27, name: "Thomas")
+
+thomas.changeName(name: "Jimmy")
+
+print(thomas.name)
+
+
+
 let myShop = CoffeeShop(name: "Happy Coffee",
                         city: "Orlando")
 
